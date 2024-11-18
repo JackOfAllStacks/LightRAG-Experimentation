@@ -1,0 +1,46 @@
+{
+  "snapStepMinutes": 10,
+  "progressIndicator": "bar",
+  "showTaskNotification": true,
+  "zoomLevel": 2,
+  "timelineIcon": "calendar-with-checkmark",
+  "endLabel": "All done",
+  "startHour": 6,
+  "timelineDateFormat": "YYYY-MM-DD",
+  "centerNeedle": false,
+  "plannerHeading": "",
+  "plannerHeadingLevel": 1,
+  "timelineColored": false,
+  "timelineStartColor": "#006466",
+  "timelineEndColor": "#4d194d",
+  "timestampFormat": "HH:mm",
+  "hourFormat": "H",
+  "dataviewSource": "\"2. Areas/Routines\"",
+  "extendDurationUntilNext": true,
+  "defaultDurationMinutes": 30,
+  "showTimestampInTaskBlock": false,
+  "showUncheduledTasks": true,
+  "showUnscheduledNestedTasks": true,
+  "showNow": true,
+  "showNext": true,
+  "pluginVersion": "0.22.1",
+  "showCompletedTasks": true,
+  "showSubtasksInTaskBlocks": true,
+  "icals": [
+    {
+      "name": "Jack's Google Calendar",
+      "url": "https://calendar.google.com/calendar/ical/diioriojack%40gmail.com/private-9d9c5ddc6286db0699b42e3d24e695c1/basic.ics",
+      "color": "#0f8ceb"
+    },
+    {
+      "name": "Australian Holidays",
+      "url": "https://calendar.google.com/calendar/ical/en.australian%23holiday%40group.v.calendar.google.com/public/basic.ics",
+      "color": "#2db443"
+    }
+  ],
+  "colorOverrides": [],
+  "releaseNotes": true,
+  "taskStatusOnCreation": " ",
+  "editMode": "simple",
+  "copyOnDrag": false
+}

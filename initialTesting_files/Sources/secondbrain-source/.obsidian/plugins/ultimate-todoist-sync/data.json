@@ -1,0 +1,120 @@
+{
+  "initialized": true,
+  "apiInitialized": true,
+  "defaultProjectName": "Inbox",
+  "automaticSynchronizationInterval": 300,
+  "todoistTasksData": {
+    "projects": [
+      {
+        "id": "2336749799",
+        "parentId": null,
+        "order": 0,
+        "color": "charcoal",
+        "name": "Inbox",
+        "commentCount": 0,
+        "isShared": false,
+        "isFavorite": false,
+        "isInboxProject": true,
+        "isTeamInbox": false,
+        "url": "https://todoist.com/showProject?id=2336749799",
+        "viewStyle": "list"
+      },
+      {
+        "id": "2336749822",
+        "parentId": null,
+        "order": 1,
+        "color": "charcoal",
+        "name": "Home 🏡",
+        "commentCount": 0,
+        "isShared": false,
+        "isFavorite": false,
+        "isInboxProject": false,
+        "isTeamInbox": false,
+        "url": "https://todoist.com/showProject?id=2336749822",
+        "viewStyle": "list"
+      }
+    ],
+    "tasks": [],
+    "events": [
+      {
+        "event_date": "2024-07-24T05:41:56.000000Z",
+        "event_type": "added",
+        "extra_data": {
+          "client": "Mozilla/5.0",
+          "name": "Home 🏡",
+          "note_count": 0
+        },
+        "extra_data_id": 24783923423,
+        "id": 24697610708,
+        "initiator_id": null,
+        "object_id": "2336749822",
+        "object_type": "project",
+        "parent_item_id": null,
+        "parent_project_id": null
+      },
+      {
+        "event_date": "2024-07-24T05:41:21.000000Z",
+        "event_type": "added",
+        "extra_data": {
+          "client": "Mozilla/5.0",
+          "name": "Inbox",
+          "note_count": 0
+        },
+        "extra_data_id": 24783919370,
+        "id": 24697606656,
+        "initiator_id": null,
+        "object_id": "2336749799",
+        "object_type": "project",
+        "parent_item_id": null,
+        "parent_project_id": null
+      },
+      {
+        "event_date": "2024-07-25T05:24:33.000000Z",
+        "event_type": "updated",
+        "extra_data": {
+          "client": "Mozilla/5.0",
+          "content": "**07:45** - Take vitamins  ttps://todoist.com/app/task/8236115809) %%[todoist_id:: 8236115809]%%",
+          "last_content": "**07:45** - Take vitamins",
+          "note_count": 0
+        },
+        "extra_data_id": 24795055710,
+        "id": 24708742795,
+        "initiator_id": null,
+        "object_id": "8236149428",
+        "object_type": "item",
+        "parent_item_id": null,
+        "parent_project_id": "2336749799"
+      }
+    ]
+  },
+  "fileMetadata": {
+    "Dailies/2024-07-25.md": {
+      "todoistTasks": [],
+      "todoistCount": 0
+    },
+    "TBD where to go/Conceptual Note Taking.md": {
+      "todoistTasks": [],
+      "todoistCount": 0
+    },
+    "5. Templates/Area Template.md": {
+      "todoistTasks": [],
+      "todoistCount": 0
+    },
+    "5. Templates/Project Template.md": {
+      "todoistTasks": [],
+      "todoistCount": 0
+    },
+    "5. Templates/Resource Template.md": {
+      "todoistTasks": [],
+      "todoistCount": 0
+    },
+    "5. Templates/Journal Templates/Daily Template.md": {
+      "todoistTasks": [],
+      "todoistCount": 0
+    }
+  },
+  "enableFullVaultSync": false,
+  "statistics": {},
+  "debugMode": false,
+  "todoistAPIToken": "442e9ff5f85ad6ba3e891966d058558fa9cf0128"
+}

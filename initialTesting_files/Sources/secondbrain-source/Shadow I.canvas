@@ -1,0 +1,24 @@
+{
+	"nodes":[
+		{"id":"c7aa160fefd427e5","x":-375,"y":-249,"width":250,"height":60,"type":"text","text":"Feed AI into it my data.  (Data into my AI)"},
+		{"id":"7f5fb96ee2b510d0","x":-521,"y":-434,"width":250,"height":60,"type":"text","text":"What data?"},
+		{"id":"d793d91dc0aaf3f2","x":-662,"y":-606,"width":250,"height":60,"type":"text","text":"Which data is useful"},
+		{"id":"7b04a68e04669032","x":-790,"y":-789,"width":250,"height":60,"type":"text","text":"What decides whether that data is useful"},
+		{"id":"9c881265d692c7cc","x":-250,"y":-374,"width":250,"height":60,"type":"text","text":"ALL FACTORS THAT COULD BE IMPORTANT / WHAT IS IMPORTANT?"},
+		{"id":"5a3c5bd6ea000377","x":7,"y":-66,"width":250,"height":60,"type":"text","text":"Why am I behaving like that?"},
+		{"id":"7eb086d12f45ad5b","x":7,"y":60,"width":250,"height":60,"type":"text","text":"What in the past could be impacting me to behave that way?"},
+		{"id":"762e2d9b34670d55","x":10,"y":213,"width":250,"height":60,"type":"text","text":"What forces are playing upon decision making by me in that situation?"},
+		{"id":"2adba8956bee09cb","x":-375,"y":60,"width":250,"height":60,"type":"text","text":"CREATING LINES OF REASONING AND THINKING. WHEN YOU SORT THIS OUT, DO X, THEN WHATEVER THAT TELLS YOU, THE RESULT OF THAT, NOW APPLY Y, THEN SOLVE FOR Z, THEN RECALL ALPHA, SOLVE FOR BETA, THEN ETC.... AD INFINITUM"},
+		{"id":"f33304e61f08d95c","x":-600,"y":243,"width":250,"height":60,"type":"text","text":"Links and relationships between entities."},
+		{"id":"87a07c792921b5cb","x":-595,"y":396,"width":250,"height":60,"type":"text","text":"Obsidian Second Brain is my mapping of my knowledge and data points as a person entirely "}
+	],
+	"edges":[
+		{"id":"f43073a1bd86ff26","fromNode":"c7aa160fefd427e5","fromSide":"top","toNode":"7f5fb96ee2b510d0","toSide":"bottom"},
+		{"id":"e6aed4479d0522f2","fromNode":"7f5fb96ee2b510d0","fromSide":"top","toNode":"d793d91dc0aaf3f2","toSide":"bottom"},
+		{"id":"373e8d37b58b3197","fromNode":"d793d91dc0aaf3f2","fromSide":"top","toNode":"7b04a68e04669032","toSide":"bottom"},
+		{"id":"c979a04fc4901b86","fromNode":"c7aa160fefd427e5","fromSide":"top","toNode":"9c881265d692c7cc","toSide":"bottom"},
+		{"id":"74015bd1dd2e89f4","fromNode":"5a3c5bd6ea000377","fromSide":"bottom","toNode":"7eb086d12f45ad5b","toSide":"top"},
+		{"id":"9d241311ef28ca21","fromNode":"7eb086d12f45ad5b","fromSide":"bottom","toNode":"762e2d9b34670d55","toSide":"top"},
+		{"id":"a0942154350ee557","fromNode":"f33304e61f08d95c","fromSide":"bottom","toNode":"87a07c792921b5cb","toSide":"top"}
+	]
+}

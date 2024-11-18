@@ -1,0 +1,226 @@
+{
+  "main": {
+    "id": "7952271a1694586e",
+    "type": "split",
+    "children": [
+      {
+        "id": "2e0867b396cc13b4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "339d914f6aa49aa3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "5. Journal/1. Days/2024-10-27.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2024-10-27"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c01cb8a581959107",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "e71f4da576f81148",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical"
+          },
+          "icon": "lucide-folder-closed",
+          "title": "Files"
+        }
+      },
+      {
+        "id": "78618b24068bcdeb",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "Angela",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          },
+          "icon": "lucide-search",
+          "title": "Search"
+        }
+      },
+      {
+        "id": "10173f56a4dbc993",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          },
+          "icon": "lucide-tags",
+          "title": "Tags"
+        }
+      },
+      {
+        "id": "5ed178798b803d85",
+        "type": "leaf",
+        "state": {
+          "type": "all-properties",
+          "state": {
+            "sortOrder": "frequency",
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-archive",
+          "title": "All properties"
+        }
+      },
+      {
+        "id": "e704b3a0142b1b95",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {},
+          "icon": "lucide-bookmark",
+          "title": "Bookmarks"
+        }
+      }
+    ],
+    "currentTab": 1
+  },
+  "right": {
+    "id": "c30010587804e60e",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "b5bf0f03ce8c8c45",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "5. Journal/1. Days/2024-10-17.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          },
+          "icon": "links-coming-in",
+          "title": "Backlinks"
+        }
+      },
+      {
+        "id": "e37566f71d6747e7",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "5. Journal/1. Days/2024-10-17.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          },
+          "icon": "links-going-out",
+          "title": "Outgoing links"
+        }
+      },
+      {
+        "id": "338ad9035468a56a",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "5. Journal/1. Days/2024-10-17.md"
+          },
+          "icon": "lucide-list",
+          "title": "Outline"
+        }
+      },
+      {
+        "id": "4a6d0401f86c3020",
+        "type": "leaf",
+        "state": {
+          "type": "calendar",
+          "state": {},
+          "icon": "calendar-with-checkmark",
+          "title": "Calendar"
+        }
+      },
+      {
+        "id": "b71c0a5b3e7c313f",
+        "type": "leaf",
+        "state": {
+          "type": "timeline",
+          "state": {},
+          "icon": "calendar-with-checkmark",
+          "title": "Timeline"
+        }
+      }
+    ],
+    "currentTab": 4
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-day-planner:Timeline": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "obsidian-projects:Open projects": false,
+      "periodic-notes:Open today": false
+    }
+  },
+  "active": "339d914f6aa49aa3",
+  "lastOpenFiles": [
+    "5. Journal/Dreams/2024-10-27 Dream.md",
+    "5. Journal/1. Days/2024-10-26.md",
+    "5. Journal/1. Days/2024-10-27.md",
+    "3. Resources/Assets/Screenshot_20241026_180549_Instagram.jpg",
+    "3. Resources/Assets/20241026_143458.jpg",
+    "3. Resources/Assets/20241026_141841.jpg",
+    "3. Resources/Assets/20241026_141441.jpg",
+    "3. Resources/Assets/Screenshot_20241026_123716_Google.jpg",
+    "5. Journal/1. Days/2024-10-25.md",
+    "5. Journal/Dreams/2024-10-26 Dream.md",
+    "Shadow I.canvas",
+    "Untitled.canvas",
+    "5. Journal/1. Days/2024-10-22.md",
+    "3. Resources/Assets/Screenshot_20241025_222900_Drive.jpg",
+    "5. Journal/Dreams/2024-10-25 Dream.md",
+    "5. Journal/Dreams/2024-10-07 Dream.md",
+    "5. Journal/1. Days/2024-10-20.md",
+    "5. Journal/Dreams/2024-10-20 Dream.md",
+    "5. Journal/1. Days/2024-10-18.md",
+    "5. Journal/1. Days/2024-10-17.md",
+    "3. Resources/Zettelkasten/Story Creation With ChatGPT.md",
+    "5. Journal/Dreams/2024-10-17 Dream.md",
+    "5. Journal/1. Days/2024-10-16.md",
+    "5. Journal/1. Days/2024-10-16.sync-conflict-20241016-115427-QLIHCPE.md",
+    "5. Journal/Dreams/2024-10-16 Dream 1.md",
+    "5. Journal/1. Days/2024-10-15.md",
+    "3. Resources/Zettelkasten/InnovatGPT In Person Interview.md",
+    "5. Journal/Dreams/2024-10-15 Dream.md",
+    "5. Journal/1. Days/2024-10-14.md",
+    "5. Journal/Dreams/2024-10-14 Dream.md",
+    "5. Journal/1. Days/2024-10-07.md",
+    "3. Resources/Zettelkasten/Pineal Gland Synchronicity.md",
+    "3. Resources/Zettelkasten/Kojima Synchronicity.md",
+    "5. Journal/1. Days/2024-10-10.md"
+  ]
+}

@@ -1,0 +1,391 @@
+{
+  "main": {
+    "id": "f4994b10d32818ef",
+    "type": "split",
+    "children": [
+      {
+        "id": "746ef56fc2d4b427",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "87b649a577c2b33e",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "obsidian-projects",
+              "state": {},
+              "pinned": true
+            }
+          },
+          {
+            "id": "246a6439b01222c5",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1. Projects/Obsidian Set Up/Templating.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "88ed63687aef6dc5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "5. Journal/1. Days/2024-09-24.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c4d85cce103c0d7c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3. Resources/Zettelkasten/The Role of AI in Enhancing Customer Experience Across Industries Planning V2.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "642b48de921e43a7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3. Resources/Zettelkasten/The Role of AI in Enhancing Customer Experience Across Industries Planning.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "bda65d1fdc75b2e9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3. Resources/Zettelkasten/Job Interview Preparation.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 5
+      },
+      {
+        "id": "296dab01526cc9b0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8ba3429c3e22f2ed",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "1. Projects/Obsidian Set Up/Vault Structured Mind Map.canvas",
+                "viewState": {
+                  "x": 160.8450956221169,
+                  "y": -1016.8033584310606,
+                  "zoom": -0.6666666666666665
+                }
+              }
+            }
+          },
+          {
+            "id": "8563f3390773c810",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1. Projects/Obsidian Set Up/Area Directory.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e8b3f08549510b32",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1. Projects/Obsidian Set Up/Organisational System of the Vault.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "73ef54cce1bfbacd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3. Resources/Zettelkasten/Conclusion Slide and Script.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "6257d32d5d0ab6c4",
+    "type": "split",
+    "children": [
+      {
+        "id": "5b92a262d851a399",
+        "type": "tabs",
+        "dimension": 71.92592592592592,
+        "children": [
+          {
+            "id": "d4b4b43c813b24b2",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "f16bc5af7694d938",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "e91a07dc568893c7",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      },
+      {
+        "id": "1e57ecb5b166167a",
+        "type": "tabs",
+        "dimension": 28.074074074074073,
+        "children": [
+          {
+            "id": "b25a327ceb88eccd",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "030c54cf29bcea70",
+    "type": "split",
+    "children": [
+      {
+        "id": "68df8d1ca77fd25a",
+        "type": "tabs",
+        "dimension": 64.51149425287356,
+        "children": [
+          {
+            "id": "8b24c2ea71243d73",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "3. Resources/Zettelkasten/Conclusion Slide and Script.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "0545a0c111197106",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "3. Resources/Zettelkasten/Conclusion Slide and Script.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "d5a53478099a3180",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "2a272d0ab9516d78",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              }
+            }
+          },
+          {
+            "id": "d02b50a9469c61e1",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "3. Resources/Zettelkasten/Conclusion Slide and Script.md"
+              }
+            }
+          },
+          {
+            "id": "cd3700746a1a5995",
+            "type": "leaf",
+            "state": {
+              "type": "timeline",
+              "state": {}
+            }
+          }
+        ]
+      },
+      {
+        "id": "991cb70f8e1da3c5",
+        "type": "tabs",
+        "dimension": 35.48850574712644,
+        "children": [
+          {
+            "id": "cf586b95f64addb3",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "3. Resources/Zettelkasten/Conclusion Slide and Script.md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": false,
+                  "showArrow": false,
+                  "textFadeMultiplier": -1.5,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 0.36288736930121196,
+                  "close": true
+                }
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 395.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-day-planner:Timeline": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-projects:Open projects": false,
+      "periodic-notes:Open today": false
+    }
+  },
+  "active": "73ef54cce1bfbacd",
+  "lastOpenFiles": [
+    "3. Resources/Zettelkasten/Untitled.md",
+    "3. Resources/Zettelkasten/Conclusion Slide and Script.md",
+    "3. Resources/Zettelkasten/Job Interview Preparation.md",
+    "3. Resources/Zettelkasten/Hospo Slide and Script.md",
+    "3. Resources/Zettelkasten/The Role of AI in Enhancing Customer Experience Across Industries Planning.md",
+    "3. Resources/Zettelkasten/Challenges Slide and Script.md",
+    "3. Resources/Zettelkasten/Benefits on Customer Experience Slide and Script.md",
+    "3. Resources/Zettelkasten/Healthcare Slide and Script.md",
+    "3. Resources/Zettelkasten/~syncthing~Retail Slide and Script.md.tmp",
+    "3. Resources/Zettelkasten/Finance Slide and Script.md",
+    "3. Resources/Zettelkasten/Retail Slide and Script.md",
+    "3. Resources/Zettelkasten/Key AI Technologies Slide and Script.md",
+    "3. Resources/Zettelkasten/~syncthing~Key AI Technologies Slide and Script.md.tmp",
+    "3. Resources/Zettelkasten/~syncthing~AI's Role in the Customer Experience Slide and Script.md.tmp",
+    "3. Resources/Zettelkasten/The Role of AI in Enhancing Customer Experience Across Industries Planning V2.md",
+    "3. Resources/Zettelkasten/Intro Slide and Script.md",
+    "3. Resources/Zettelkasten/AI's Role in the Customer Experience Slide and Script.md",
+    "1. Projects/Obsidian Set Up/Organisational System of the Vault.md",
+    "5. Journal/1. Days/2024-09-24.md",
+    "1. Projects/Obsidian Set Up/Vault Structured Mind Map.canvas",
+    "Untitled.md",
+    "5. Journal/Dreams/2024-09-24 Dream.md",
+    "3. Resources/People/Jack Di Iorio.md",
+    "1. Projects/Obsidian Set Up/Templating.md",
+    "1. Projects/Obsidian Set Up/Area Directory.md",
+    "5. Journal/1. Days/2024-09-23.md",
+    "5. Journal/Dreams/2024-09-23 Dream.md",
+    "1. Projects/Obsidian Set Up/~syncthing~Organisational System of the Vault.md.tmp",
+    "5. Journal/Dreams/2024-09-18 Dream.md",
+    "2. Areas/Routines/Daily Routine.md",
+    "5. Journal/Magick Diary/2024-09-17 10.18 Magick Entry.md",
+    "99. Meta/Templates/Resource Templates",
+    "99. Meta/Templates/Journal Templates",
+    "99. Meta/Templates",
+    "99. Meta/Scripts",
+    "99. Meta",
+    "99.  Meta/Templates/Resource Templates"
+  ]
+}

@@ -23,7 +23,7 @@ def insert_text(rag, file_path):
         print("Insertion failed after exceeding the maximum number of retries")
 
 
-cls = "agriculture"
+cls = "finance"
 WORKING_DIR = "../{cls}"
 
 if not os.path.exists(WORKING_DIR):
@@ -31,4 +31,4 @@ if not os.path.exists(WORKING_DIR):
 
 rag = LightRAG(working_dir=WORKING_DIR)
 
-insert_text(rag, f"../datasets/unique_contexts/{cls}_unique_contexts.json")
+insert_text(rag, f"../working_sources/unique_contexts/unique_contests-hybrid/{cls}_unique_contexts.json")

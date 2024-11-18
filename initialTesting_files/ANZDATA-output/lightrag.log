@@ -1,0 +1,563 @@
+2024-10-28 14:50:03,327 - lightrag - INFO - Logger initialized for working directory: ./ANZDATA-output
+2024-10-28 14:50:03,327 - lightrag - DEBUG - LightRAG init with param:
+  working_dir = ./ANZDATA-output,
+  chunk_token_size = 1200,
+  chunk_overlap_token_size = 100,
+  tiktoken_model_name = gpt-4o-mini,
+  entity_extract_max_gleaning = 1,
+  entity_summary_to_max_tokens = 500,
+  node_embedding_algorithm = node2vec,
+  node2vec_params = {'dimensions': 1536, 'num_walks': 10, 'walk_length': 40, 'window_size': 2, 'iterations': 3, 'random_seed': 3},
+  embedding_func = {'embedding_dim': 1536, 'max_token_size': 8192, 'func': <function openai_embedding at 0x00000218A1F1CFE0>},
+  embedding_batch_num = 32,
+  embedding_func_max_async = 16,
+  llm_model_func = <function gpt_4o_mini_complete at 0x00000218A1F1C900>,
+  llm_model_name = meta-llama/Llama-3.2-1B-Instruct,
+  llm_model_max_token_size = 32768,
+  llm_model_max_async = 16,
+  key_string_value_json_storage_cls = <class 'lightrag.storage.JsonKVStorage'>,
+  vector_db_storage_cls = <class 'lightrag.storage.NanoVectorDBStorage'>,
+  vector_db_storage_cls_kwargs = {},
+  graph_storage_cls = <class 'lightrag.storage.NetworkXStorage'>,
+  enable_llm_cache = True,
+  addon_params = {},
+  convert_response_to_json_func = <function convert_response_to_json at 0x00000218A1F0DDA0>
+
+2024-10-28 14:50:03,342 - lightrag - INFO - Load KV full_docs with 0 data
+2024-10-28 14:50:03,342 - lightrag - INFO - Load KV text_chunks with 0 data
+2024-10-28 14:50:03,342 - lightrag - INFO - Load KV llm_response_cache with 0 data
+2024-10-28 14:50:03,371 - lightrag - INFO - Creating a new event loop in a sub-thread.
+2024-10-28 14:50:03,372 - lightrag - INFO - [New Docs] inserting 1 docs
+2024-10-28 14:50:03,670 - lightrag - INFO - [New Chunks] inserting 1 chunks
+2024-10-28 14:50:03,670 - lightrag - INFO - Inserting 1 vectors to chunks
+2024-10-28 14:50:04,912 - lightrag - INFO - [Entity Extraction]...
+2024-10-28 14:50:14,127 - lightrag - INFO - Inserting 9 vectors to entities
+2024-10-28 14:50:15,704 - lightrag - INFO - Inserting 6 vectors to relationships
+2024-10-28 14:50:17,057 - lightrag - INFO - Writing graph with 9 nodes, 6 edges
+2024-10-28 14:50:17,077 - lightrag - INFO - Creating a new event loop in a sub-thread.
+2024-10-28 14:50:17,078 - lightrag - INFO - [New Docs] inserting 1 docs
+2024-10-28 14:50:17,079 - lightrag - INFO - [New Chunks] inserting 1 chunks
+2024-10-28 14:50:17,079 - lightrag - INFO - Inserting 1 vectors to chunks
+2024-10-28 14:50:18,225 - lightrag - INFO - [Entity Extraction]...
+2024-10-28 14:50:30,896 - lightrag - INFO - Inserting 14 vectors to entities
+2024-10-28 14:50:32,628 - lightrag - INFO - Inserting 9 vectors to relationships
+2024-10-28 14:50:34,330 - lightrag - INFO - Writing graph with 17 nodes, 11 edges
+2024-10-28 14:50:34,367 - lightrag - INFO - Creating a new event loop in a sub-thread.
+2024-10-28 14:50:34,368 - lightrag - INFO - [New Docs] inserting 1 docs
+2024-10-28 14:50:34,369 - lightrag - INFO - [New Chunks] inserting 1 chunks
+2024-10-28 14:50:34,369 - lightrag - INFO - Inserting 1 vectors to chunks
+2024-10-28 14:50:35,540 - lightrag - INFO - [Entity Extraction]...
+2024-10-28 14:50:53,090 - lightrag - INFO - Inserting 15 vectors to entities
+2024-10-28 14:50:54,985 - lightrag - INFO - Inserting 13 vectors to relationships
+2024-10-28 14:50:57,029 - lightrag - INFO - Writing graph with 34 nodes, 24 edges
+2024-10-28 14:50:57,068 - lightrag - INFO - Creating a new event loop in a sub-thread.
+2024-10-28 14:50:57,068 - lightrag - INFO - [New Docs] inserting 1 docs
+2024-10-28 14:50:57,069 - lightrag - INFO - [New Chunks] inserting 1 chunks
+2024-10-28 14:50:57,070 - lightrag - INFO - Inserting 1 vectors to chunks
+2024-10-28 14:50:57,952 - lightrag - INFO - [Entity Extraction]...
+2024-10-28 14:51:13,782 - lightrag - INFO - Inserting 20 vectors to entities
+2024-10-28 14:51:15,925 - lightrag - INFO - Inserting 7 vectors to relationships
+2024-10-28 14:51:17,314 - lightrag - INFO - Writing graph with 46 nodes, 30 edges
+2024-10-28 14:51:17,341 - lightrag - INFO - Creating a new event loop in a sub-thread.
+2024-10-28 14:51:17,344 - lightrag - INFO - [New Docs] inserting 1 docs
+2024-10-28 14:51:17,348 - lightrag - INFO - [New Chunks] inserting 5 chunks
+2024-10-28 14:51:17,348 - lightrag - INFO - Inserting 5 vectors to chunks
+2024-10-28 14:51:18,745 - lightrag - INFO - [Entity Extraction]...
+2024-10-28 14:51:35,563 - lightrag - INFO - Inserting 84 vectors to entities
+2024-10-28 14:51:38,577 - lightrag - INFO - Inserting 22 vectors to relationships
+2024-10-28 14:51:40,055 - lightrag - INFO - Writing graph with 127 nodes, 52 edges
+2024-10-28 14:51:40,127 - lightrag - INFO - Creating a new event loop in a sub-thread.
+2024-10-28 14:51:40,128 - lightrag - INFO - [New Docs] inserting 1 docs
+2024-10-28 14:51:40,129 - lightrag - INFO - [New Chunks] inserting 1 chunks
+2024-10-28 14:51:40,130 - lightrag - INFO - Inserting 1 vectors to chunks
+2024-10-28 14:51:40,913 - lightrag - INFO - [Entity Extraction]...
+2024-10-28 14:51:54,102 - lightrag - INFO - Inserting 13 vectors to entities
+2024-10-28 14:51:55,862 - lightrag - INFO - Inserting 9 vectors to relationships
+2024-10-28 14:51:57,354 - lightrag - INFO - Writing graph with 135 nodes, 59 edges
+2024-10-28 14:51:57,410 - lightrag - INFO - Creating a new event loop in a sub-thread.
+2024-10-28 14:51:57,422 - lightrag - INFO - [New Docs] inserting 1 docs
+2024-10-28 14:51:57,424 - lightrag - INFO - [New Chunks] inserting 1 chunks
+2024-10-28 14:51:57,425 - lightrag - INFO - Inserting 1 vectors to chunks
+2024-10-28 14:51:58,298 - lightrag - INFO - [Entity Extraction]...
+2024-10-28 14:52:10,456 - lightrag - INFO - Inserting 10 vectors to entities
+2024-10-28 14:52:13,049 - lightrag - INFO - Inserting 9 vectors to relationships
+2024-10-28 14:52:14,203 - lightrag - INFO - Writing graph with 141 nodes, 67 edges
+2024-10-28 14:52:14,258 - lightrag - INFO - Creating a new event loop in a sub-thread.
+2024-10-28 14:52:14,260 - lightrag - INFO - [New Docs] inserting 1 docs
+2024-10-28 14:52:14,458 - lightrag - INFO - [New Chunks] inserting 103 chunks
+2024-10-28 14:52:14,458 - lightrag - INFO - Inserting 103 vectors to chunks
+2024-10-28 14:52:18,204 - lightrag - INFO - [Entity Extraction]...
+2024-10-28 14:54:10,499 - lightrag - DEBUG - Trigger summary: "ANZ"
+2024-10-28 14:54:10,819 - lightrag - DEBUG - Trigger summary: "CASH PROFIT"
+2024-10-28 14:54:11,132 - lightrag - DEBUG - Trigger summary: "NEW ZEALAND"
+2024-10-28 14:54:11,472 - lightrag - DEBUG - Trigger summary: "AUSTRALIA"
+2024-10-28 14:54:16,470 - lightrag - INFO - Inserting 981 vectors to entities
+2024-10-28 14:54:34,070 - lightrag - INFO - Inserting 657 vectors to relationships
+2024-10-28 14:54:46,828 - lightrag - INFO - Writing graph with 1116 nodes, 720 edges
+2024-10-28 14:54:46,899 - lightrag - INFO - Creating a new event loop in a sub-thread.
+2024-10-28 14:54:46,915 - lightrag - INFO - [New Docs] inserting 1 docs
+2024-10-28 14:54:46,928 - lightrag - INFO - [New Chunks] inserting 3 chunks
+2024-10-28 14:54:46,929 - lightrag - INFO - Inserting 3 vectors to chunks
+2024-10-28 14:54:48,206 - lightrag - INFO - [Entity Extraction]...
+2024-10-28 14:55:07,795 - lightrag - INFO - Inserting 39 vectors to entities
+2024-10-28 14:55:10,397 - lightrag - INFO - Inserting 35 vectors to relationships
+2024-10-28 14:55:13,188 - lightrag - INFO - Writing graph with 1148 nodes, 753 edges
+2024-10-28 14:55:13,268 - lightrag - INFO - Creating a new event loop in a sub-thread.
+2024-10-28 14:55:13,268 - lightrag - INFO - [New Docs] inserting 1 docs
+2024-10-28 14:55:13,268 - lightrag - INFO - [New Chunks] inserting 3 chunks
+2024-10-28 14:55:13,268 - lightrag - INFO - Inserting 3 vectors to chunks
+2024-10-28 14:55:14,500 - lightrag - INFO - [Entity Extraction]...
+2024-10-28 14:55:34,484 - lightrag - DEBUG - Trigger summary: "ANZ"
+2024-10-28 14:55:38,293 - lightrag - INFO - Inserting 51 vectors to entities
+2024-10-28 14:55:40,896 - lightrag - INFO - Inserting 22 vectors to relationships
+2024-10-28 14:55:42,843 - lightrag - INFO - Writing graph with 1179 nodes, 769 edges
+2024-10-28 14:55:42,924 - lightrag - INFO - Creating a new event loop in a sub-thread.
+2024-10-28 14:55:42,925 - lightrag - INFO - [New Docs] inserting 1 docs
+2024-10-28 14:55:42,958 - lightrag - INFO - [New Chunks] inserting 37 chunks
+2024-10-28 14:55:42,958 - lightrag - INFO - Inserting 37 vectors to chunks
+2024-10-28 14:55:46,293 - lightrag - INFO - [Entity Extraction]...
+2024-10-28 14:56:45,170 - lightrag - DEBUG - Trigger summary: "AUSTRALIA"
+2024-10-28 14:56:45,500 - lightrag - DEBUG - Trigger summary: "NEW ZEALAND"
+2024-10-28 14:56:45,813 - lightrag - DEBUG - Trigger summary: "ANZ"
+2024-10-28 14:56:46,121 - lightrag - DEBUG - Trigger summary: "APRA"
+2024-10-28 14:56:46,425 - lightrag - DEBUG - Trigger summary: "CUSTOMER DEPOSITS"
+2024-10-28 14:56:52,294 - lightrag - INFO - Inserting 566 vectors to entities
+2024-10-28 14:57:04,089 - lightrag - INFO - Inserting 255 vectors to relationships
+2024-10-28 14:57:09,671 - lightrag - INFO - Writing graph with 1663 nodes, 1012 edges
+2024-10-28 14:57:09,799 - lightrag - INFO - Creating a new event loop in a sub-thread.
+2024-10-28 14:57:09,799 - lightrag - INFO - [New Docs] inserting 1 docs
+2024-10-28 14:57:09,799 - lightrag - INFO - [New Chunks] inserting 3 chunks
+2024-10-28 14:57:09,799 - lightrag - INFO - Inserting 3 vectors to chunks
+2024-10-28 14:57:11,144 - lightrag - INFO - [Entity Extraction]...
+2024-10-28 14:57:26,049 - lightrag - INFO - Inserting 24 vectors to entities
+2024-10-28 14:57:28,981 - lightrag - INFO - Inserting 18 vectors to relationships
+2024-10-28 14:57:30,839 - lightrag - INFO - Writing graph with 1676 nodes, 1023 edges
+2024-10-28 14:57:31,111 - lightrag - INFO - Creating a new event loop in a sub-thread.
+2024-10-28 14:57:31,111 - lightrag - INFO - [New Docs] inserting 1 docs
+2024-10-28 14:57:31,111 - lightrag - INFO - [New Chunks] inserting 2 chunks
+2024-10-28 14:57:31,111 - lightrag - INFO - Inserting 2 vectors to chunks
+2024-10-28 14:57:32,384 - lightrag - INFO - [Entity Extraction]...
+2024-10-28 14:57:47,723 - lightrag - DEBUG - Trigger summary: "ANZ"
+2024-10-28 14:57:52,297 - lightrag - INFO - Inserting 22 vectors to entities
+2024-10-28 14:57:54,807 - lightrag - INFO - Inserting 17 vectors to relationships
+2024-10-28 14:57:56,881 - lightrag - INFO - Writing graph with 1689 nodes, 1039 edges
+2024-10-28 14:57:56,996 - lightrag - INFO - Creating a new event loop in a sub-thread.
+2024-10-28 14:57:56,996 - lightrag - INFO - [New Docs] inserting 1 docs
+2024-10-28 14:57:56,996 - lightrag - INFO - [New Chunks] inserting 1 chunks
+2024-10-28 14:57:56,996 - lightrag - INFO - Inserting 1 vectors to chunks
+2024-10-28 14:57:58,316 - lightrag - INFO - [Entity Extraction]...
+2024-10-28 14:58:10,465 - lightrag - INFO - Inserting 21 vectors to entities
+2024-10-28 14:58:12,929 - lightrag - INFO - Inserting 4 vectors to relationships
+2024-10-28 14:58:14,862 - lightrag - INFO - Writing graph with 1696 nodes, 1040 edges
+2024-10-28 14:58:14,974 - lightrag - INFO - Creating a new event loop in a sub-thread.
+2024-10-28 14:58:14,974 - lightrag - INFO - [New Docs] inserting 1 docs
+2024-10-28 14:58:14,989 - lightrag - INFO - [New Chunks] inserting 1 chunks
+2024-10-28 14:58:14,989 - lightrag - INFO - Inserting 1 vectors to chunks
+2024-10-28 14:58:15,768 - lightrag - INFO - [Entity Extraction]...
+2024-10-28 14:58:27,508 - lightrag - DEBUG - Trigger summary: ('"ANZ"', '"NEW ZEALAND"')
+2024-10-28 14:58:30,704 - lightrag - INFO - Inserting 17 vectors to entities
+2024-10-28 14:58:32,604 - lightrag - INFO - Inserting 6 vectors to relationships
+2024-10-28 14:58:34,295 - lightrag - INFO - Writing graph with 1705 nodes, 1043 edges
+2024-10-28 14:58:34,454 - lightrag - INFO - Creating a new event loop in a sub-thread.
+2024-10-28 14:58:34,454 - lightrag - INFO - [New Docs] inserting 1 docs
+2024-10-28 14:58:34,454 - lightrag - INFO - [New Chunks] inserting 2 chunks
+2024-10-28 14:58:34,454 - lightrag - INFO - Inserting 2 vectors to chunks
+2024-10-28 14:58:35,484 - lightrag - INFO - [Entity Extraction]...
+2024-10-28 14:58:54,145 - lightrag - DEBUG - Trigger summary: "CASH PROFIT"
+2024-10-28 14:58:59,594 - lightrag - INFO - Inserting 41 vectors to entities
+2024-10-28 14:59:02,357 - lightrag - INFO - Inserting 23 vectors to relationships
+2024-10-28 14:59:04,460 - lightrag - INFO - Writing graph with 1733 nodes, 1066 edges
+2024-10-28 14:59:04,553 - lightrag - INFO - Creating a new event loop in a sub-thread.
+2024-10-28 14:59:04,568 - lightrag - INFO - [New Docs] inserting 1 docs
+2024-10-28 14:59:04,574 - lightrag - INFO - [New Chunks] inserting 5 chunks
+2024-10-28 14:59:04,574 - lightrag - INFO - Inserting 5 vectors to chunks
+2024-10-28 14:59:05,827 - lightrag - INFO - [Entity Extraction]...
+2024-10-28 14:59:29,296 - lightrag - DEBUG - Trigger summary: "ANZ"
+2024-10-28 14:59:29,701 - lightrag - DEBUG - Trigger summary: "NEW ZEALAND"
+2024-10-28 14:59:33,989 - lightrag - DEBUG - Trigger summary: ('"ANZ"', '"AUSTRALIA"')
+2024-10-28 14:59:37,405 - lightrag - INFO - Inserting 76 vectors to entities
+2024-10-28 14:59:41,113 - lightrag - INFO - Inserting 29 vectors to relationships
+2024-10-28 14:59:43,590 - lightrag - INFO - Writing graph with 1783 nodes, 1088 edges
+2024-10-28 14:59:43,702 - lightrag - INFO - Creating a new event loop in a sub-thread.
+2024-10-28 14:59:43,702 - lightrag - INFO - [New Docs] inserting 1 docs
+2024-10-28 14:59:43,719 - lightrag - INFO - [New Chunks] inserting 2 chunks
+2024-10-28 14:59:43,719 - lightrag - INFO - Inserting 2 vectors to chunks
+2024-10-28 14:59:45,003 - lightrag - INFO - [Entity Extraction]...
+2024-10-28 14:59:55,501 - lightrag - INFO - Inserting 26 vectors to entities
+2024-10-28 14:59:58,662 - lightrag - INFO - Inserting 6 vectors to relationships
+2024-10-28 15:00:00,509 - lightrag - INFO - Writing graph with 1800 nodes, 1094 edges
+2024-10-28 15:00:00,761 - lightrag - INFO - Creating a new event loop in a sub-thread.
+2024-10-28 15:00:00,762 - lightrag - INFO - [New Docs] inserting 1 docs
+2024-10-28 15:00:00,765 - lightrag - INFO - [New Chunks] inserting 2 chunks
+2024-10-28 15:00:00,765 - lightrag - INFO - Inserting 2 vectors to chunks
+2024-10-28 15:00:01,861 - lightrag - INFO - [Entity Extraction]...
+2024-10-28 15:00:14,802 - lightrag - INFO - Inserting 28 vectors to entities
+2024-10-28 15:00:16,845 - lightrag - INFO - Inserting 12 vectors to relationships
+2024-10-28 15:00:18,668 - lightrag - INFO - Writing graph with 1813 nodes, 1105 edges
+2024-10-28 15:00:18,780 - lightrag - INFO - Creating a new event loop in a sub-thread.
+2024-10-28 15:00:18,794 - lightrag - INFO - [New Docs] inserting 1 docs
+2024-10-28 15:00:18,797 - lightrag - INFO - [New Chunks] inserting 2 chunks
+2024-10-28 15:00:18,798 - lightrag - INFO - Inserting 2 vectors to chunks
+2024-10-28 15:00:19,875 - lightrag - INFO - [Entity Extraction]...
+2024-10-28 15:00:36,500 - lightrag - INFO - Inserting 27 vectors to entities
+2024-10-28 15:00:38,787 - lightrag - INFO - Inserting 13 vectors to relationships
+2024-10-28 15:00:41,282 - lightrag - INFO - Writing graph with 1827 nodes, 1118 edges
+2024-10-28 15:00:41,375 - lightrag - INFO - Creating a new event loop in a sub-thread.
+2024-10-28 15:00:41,375 - lightrag - INFO - [New Docs] inserting 1 docs
+2024-10-28 15:00:41,375 - lightrag - INFO - [New Chunks] inserting 2 chunks
+2024-10-28 15:00:41,375 - lightrag - INFO - Inserting 2 vectors to chunks
+2024-10-28 15:00:42,416 - lightrag - INFO - [Entity Extraction]...
+2024-10-28 15:01:00,087 - lightrag - INFO - Inserting 26 vectors to entities
+2024-10-28 15:01:01,705 - lightrag - INFO - Inserting 20 vectors to relationships
+2024-10-28 15:01:04,173 - lightrag - INFO - Writing graph with 1840 nodes, 1136 edges
+2024-10-28 15:01:04,396 - lightrag - INFO - Creating a new event loop in a sub-thread.
+2024-10-28 15:01:04,396 - lightrag - INFO - [New Docs] inserting 1 docs
+2024-10-28 15:01:04,396 - lightrag - INFO - [New Chunks] inserting 2 chunks
+2024-10-28 15:01:04,396 - lightrag - INFO - Inserting 2 vectors to chunks
+2024-10-28 15:01:05,172 - lightrag - INFO - [Entity Extraction]...
+2024-10-28 15:01:17,503 - lightrag - DEBUG - Trigger summary: "AUSTRALIA AND NEW ZEALAND BANKING GROUP LIMITED"
+2024-10-28 15:01:17,978 - lightrag - DEBUG - Trigger summary: "ANZ"
+2024-10-28 15:01:22,195 - lightrag - INFO - Inserting 30 vectors to entities
+2024-10-28 15:01:24,945 - lightrag - INFO - Inserting 7 vectors to relationships
+2024-10-28 15:01:27,532 - lightrag - INFO - Writing graph with 1850 nodes, 1140 edges
+2024-10-28 15:01:27,659 - lightrag - INFO - Creating a new event loop in a sub-thread.
+2024-10-28 15:01:27,660 - lightrag - INFO - [New Docs] inserting 1 docs
+2024-10-28 15:01:27,674 - lightrag - INFO - [New Chunks] inserting 5 chunks
+2024-10-28 15:01:27,674 - lightrag - INFO - Inserting 5 vectors to chunks
+2024-10-28 15:01:29,406 - lightrag - INFO - [Entity Extraction]...
+2024-10-28 15:01:48,667 - lightrag - INFO - Inserting 45 vectors to entities
+2024-10-28 15:01:51,143 - lightrag - INFO - Inserting 38 vectors to relationships
+2024-10-28 15:01:53,599 - lightrag - INFO - Writing graph with 1867 nodes, 1168 edges
+2024-10-28 15:01:53,755 - lightrag - INFO - Creating a new event loop in a sub-thread.
+2024-10-28 15:01:53,755 - lightrag - INFO - [New Docs] inserting 1 docs
+2024-10-28 15:01:53,934 - lightrag - INFO - [New Chunks] inserting 150 chunks
+2024-10-28 15:01:53,934 - lightrag - INFO - Inserting 150 vectors to chunks
+2024-10-28 15:01:58,829 - lightrag - INFO - [Entity Extraction]...
+2024-10-28 15:04:54,911 - lightrag - DEBUG - Trigger summary: "ANZ"
+2024-10-28 15:04:55,286 - lightrag - DEBUG - Trigger summary: "AUSTRALIA"
+2024-10-28 15:04:55,684 - lightrag - DEBUG - Trigger summary: "ROYAL COMMISSION"
+2024-10-28 15:04:56,076 - lightrag - DEBUG - Trigger summary: "APRA"
+2024-10-28 15:04:56,377 - lightrag - DEBUG - Trigger summary: "NEW ZEALAND"
+2024-10-28 15:04:56,708 - lightrag - DEBUG - Trigger summary: "CASH PROFIT"
+2024-10-28 15:04:57,004 - lightrag - DEBUG - Trigger summary: "NET LOANS AND ADVANCES"
+2024-10-28 15:04:57,333 - lightrag - DEBUG - Trigger summary: "GROUP"
+2024-10-28 15:04:57,638 - lightrag - DEBUG - Trigger summary: "CREDIT IMPAIRMENT CHARGE"
+2024-10-28 15:04:57,989 - lightrag - DEBUG - Trigger summary: "NET INTEREST INCOME"
+2024-10-28 15:04:58,296 - lightrag - DEBUG - Trigger summary: "OPERATING EXPENSES"
+2024-10-28 15:04:58,603 - lightrag - DEBUG - Trigger summary: "AUSTRALIA RETAIL AND COMMERCIAL"
+2024-10-28 15:04:58,902 - lightrag - DEBUG - Trigger summary: "INSTITUTIONAL"
+2024-10-28 15:04:59,233 - lightrag - DEBUG - Trigger summary: "AUSTRALIA AND NEW ZEALAND BANKING GROUP LIMITED"
+2024-10-28 15:04:59,535 - lightrag - DEBUG - Trigger summary: "AASB 9"
+2024-10-28 15:05:05,261 - lightrag - DEBUG - Trigger summary: ('"ANZ"', '"NEW ZEALAND"')
+2024-10-28 15:05:05,547 - lightrag - DEBUG - Trigger summary: ('"ANZ"', '"AUSTRALIA"')
+2024-10-28 15:05:10,939 - lightrag - INFO - Inserting 1691 vectors to entities
+2024-10-28 15:05:40,552 - lightrag - INFO - Inserting 1105 vectors to relationships
+2024-10-28 15:06:02,827 - lightrag - INFO - Writing graph with 3229 nodes, 2196 edges
+2024-10-28 15:06:03,176 - lightrag - INFO - Creating a new event loop in a sub-thread.
+2024-10-28 15:06:03,176 - lightrag - INFO - [New Docs] inserting 1 docs
+2024-10-28 15:06:03,223 - lightrag - INFO - [New Chunks] inserting 43 chunks
+2024-10-28 15:06:03,223 - lightrag - INFO - Inserting 43 vectors to chunks
+2024-10-28 15:06:06,536 - lightrag - INFO - [Entity Extraction]...
+2024-10-28 15:07:04,104 - lightrag - DEBUG - Trigger summary: "ANZ"
+2024-10-28 15:07:04,409 - lightrag - DEBUG - Trigger summary: "AUSTRALIA"
+2024-10-28 15:07:04,711 - lightrag - DEBUG - Trigger summary: "SHAYNE ELLIOTT"
+2024-10-28 15:07:05,010 - lightrag - DEBUG - Trigger summary: "NEW ZEALAND"
+2024-10-28 15:07:05,325 - lightrag - DEBUG - Trigger summary: "CUSTOMER REMEDIATION"
+2024-10-28 15:07:16,253 - lightrag - DEBUG - Trigger summary: ('"ANZ"', '"AUSTRALIA"')
+2024-10-28 15:07:16,553 - lightrag - DEBUG - Trigger summary: ('"ANZ"', '"NEW ZEALAND"')
+2024-10-28 15:07:20,528 - lightrag - INFO - Inserting 599 vectors to entities
+2024-10-28 15:07:33,104 - lightrag - INFO - Inserting 360 vectors to relationships
+2024-10-28 15:07:40,649 - lightrag - INFO - Writing graph with 3468 nodes, 2447 edges
+2024-10-28 15:07:41,130 - lightrag - INFO - Creating a new event loop in a sub-thread.
+2024-10-28 15:07:41,130 - lightrag - INFO - [New Docs] inserting 1 docs
+2024-10-28 15:07:41,209 - lightrag - INFO - [New Chunks] inserting 54 chunks
+2024-10-28 15:07:41,209 - lightrag - INFO - Inserting 54 vectors to chunks
+2024-10-28 15:07:53,147 - lightrag - INFO - [Entity Extraction]...
+2024-10-28 15:09:15,950 - lightrag - DEBUG - Trigger summary: "OPERATING INCOME"
+2024-10-28 15:09:16,275 - lightrag - DEBUG - Trigger summary: "ANZ"
+2024-10-28 15:09:16,587 - lightrag - DEBUG - Trigger summary: "2019 ANNUAL REPORT"
+2024-10-28 15:09:16,895 - lightrag - DEBUG - Trigger summary: "AASB 9"
+2024-10-28 15:09:17,197 - lightrag - DEBUG - Trigger summary: "AASB 15"
+2024-10-28 15:09:17,513 - lightrag - DEBUG - Trigger summary: "FINANCIAL ASSETS"
+2024-10-28 15:09:17,817 - lightrag - DEBUG - Trigger summary: "AUSTRALIA"
+2024-10-28 15:09:18,130 - lightrag - DEBUG - Trigger summary: "INVESTMENT SECURITIES"
+2024-10-28 15:09:18,459 - lightrag - DEBUG - Trigger summary: "ROYAL COMMISSION"
+2024-10-28 15:09:25,498 - lightrag - DEBUG - Trigger summary: ('"2019 ANNUAL REPORT"', '"ANZ"')
+2024-10-28 15:09:29,062 - lightrag - INFO - Inserting 655 vectors to entities
+2024-10-28 15:09:41,531 - lightrag - INFO - Inserting 380 vectors to relationships
+2024-10-28 15:09:51,398 - lightrag - INFO - Writing graph with 3763 nodes, 2747 edges
+2024-10-28 15:09:51,844 - lightrag - INFO - Creating a new event loop in a sub-thread.
+2024-10-28 15:09:51,845 - lightrag - INFO - [New Docs] inserting 1 docs
+2024-10-28 15:09:51,853 - lightrag - INFO - [New Chunks] inserting 6 chunks
+2024-10-28 15:09:51,853 - lightrag - INFO - Inserting 6 vectors to chunks
+2024-10-28 15:09:53,614 - lightrag - INFO - [Entity Extraction]...
+2024-10-28 15:10:09,060 - lightrag - DEBUG - Trigger summary: "ANZ"
+2024-10-28 15:10:13,832 - lightrag - INFO - Inserting 109 vectors to entities
+2024-10-28 15:10:17,668 - lightrag - INFO - Inserting 44 vectors to relationships
+2024-10-28 15:10:21,236 - lightrag - INFO - Writing graph with 3849 nodes, 2784 edges
+2024-10-28 15:10:21,470 - lightrag - INFO - Creating a new event loop in a sub-thread.
+2024-10-28 15:10:21,470 - lightrag - INFO - [New Docs] inserting 1 docs
+2024-10-28 15:10:21,488 - lightrag - INFO - [New Chunks] inserting 14 chunks
+2024-10-28 15:10:21,488 - lightrag - INFO - Inserting 14 vectors to chunks
+2024-10-28 15:10:24,557 - lightrag - INFO - [Entity Extraction]...
+2024-10-28 15:10:50,538 - lightrag - DEBUG - Trigger summary: "AUSTRALIA"
+2024-10-28 15:10:50,822 - lightrag - DEBUG - Trigger summary: "NEW ZEALAND"
+2024-10-28 15:10:51,117 - lightrag - DEBUG - Trigger summary: "THE GROUP"
+2024-10-28 15:10:51,401 - lightrag - DEBUG - Trigger summary: "GROUP"
+2024-10-28 15:10:51,708 - lightrag - DEBUG - Trigger summary: "CREDIT RISK"
+2024-10-28 15:10:58,946 - lightrag - INFO - Inserting 218 vectors to entities
+2024-10-28 15:11:04,274 - lightrag - INFO - Inserting 141 vectors to relationships
+2024-10-28 15:11:08,778 - lightrag - INFO - Writing graph with 3993 nodes, 2920 edges
+2024-10-28 15:11:09,092 - lightrag - INFO - Creating a new event loop in a sub-thread.
+2024-10-28 15:11:09,092 - lightrag - INFO - [New Docs] inserting 1 docs
+2024-10-28 15:11:09,108 - lightrag - INFO - [New Chunks] inserting 12 chunks
+2024-10-28 15:11:09,108 - lightrag - INFO - Inserting 12 vectors to chunks
+2024-10-28 15:11:11,425 - lightrag - INFO - [Entity Extraction]...
+2024-10-28 15:11:47,233 - lightrag - DEBUG - Trigger summary: "ANZ"
+2024-10-28 15:11:47,538 - lightrag - DEBUG - Trigger summary: "APRA"
+2024-10-28 15:11:53,694 - lightrag - INFO - Inserting 127 vectors to entities
+2024-10-28 15:11:57,771 - lightrag - INFO - Inserting 96 vectors to relationships
+2024-10-28 15:12:01,543 - lightrag - INFO - Writing graph with 4061 nodes, 2987 edges
+2024-10-28 15:12:01,871 - lightrag - INFO - Creating a new event loop in a sub-thread.
+2024-10-28 15:12:01,871 - lightrag - INFO - [New Docs] inserting 1 docs
+2024-10-28 15:12:01,880 - lightrag - INFO - [New Chunks] inserting 5 chunks
+2024-10-28 15:12:01,880 - lightrag - INFO - Inserting 5 vectors to chunks
+2024-10-28 15:12:03,413 - lightrag - INFO - [Entity Extraction]...
+2024-10-28 15:12:36,400 - lightrag - DEBUG - Trigger summary: "ANZ"
+2024-10-28 15:12:41,969 - lightrag - INFO - Inserting 51 vectors to entities
+2024-10-28 15:12:45,102 - lightrag - INFO - Inserting 52 vectors to relationships
+2024-10-28 15:12:48,241 - lightrag - INFO - Writing graph with 4092 nodes, 3036 edges
+2024-10-28 15:12:48,477 - lightrag - INFO - Creating a new event loop in a sub-thread.
+2024-10-28 15:12:48,477 - lightrag - INFO - [New Docs] inserting 1 docs
+2024-10-28 15:12:48,540 - lightrag - INFO - [New Chunks] inserting 49 chunks
+2024-10-28 15:12:48,540 - lightrag - INFO - Inserting 49 vectors to chunks
+2024-10-28 15:12:52,705 - lightrag - INFO - [Entity Extraction]...
+2024-10-28 15:13:55,678 - lightrag - DEBUG - Trigger summary: "SEPTEMBER 2019"
+2024-10-28 15:13:55,962 - lightrag - DEBUG - Trigger summary: "ANZ"
+2024-10-28 15:13:56,249 - lightrag - DEBUG - Trigger summary: "BASEL III"
+2024-10-28 15:13:56,544 - lightrag - DEBUG - Trigger summary: "APRA"
+2024-10-28 15:13:56,827 - lightrag - DEBUG - Trigger summary: "NEW ZEALAND"
+2024-10-28 15:14:01,545 - lightrag - DEBUG - Trigger summary: ('"ANZ"', '"SEPTEMBER 2019"')
+2024-10-28 15:14:01,830 - lightrag - DEBUG - Trigger summary: ('"ANZ"', '"APRA"')
+2024-10-28 15:14:02,115 - lightrag - DEBUG - Trigger summary: ('"ANZ"', '"AUSTRALIA"')
+2024-10-28 15:14:06,275 - lightrag - INFO - Inserting 560 vectors to entities
+2024-10-28 15:14:17,892 - lightrag - INFO - Inserting 339 vectors to relationships
+2024-10-28 15:14:25,696 - lightrag - INFO - Writing graph with 4467 nodes, 3328 edges
+2024-10-28 15:14:26,237 - lightrag - INFO - Creating a new event loop in a sub-thread.
+2024-10-28 15:14:26,237 - lightrag - INFO - [New Docs] inserting 1 docs
+2024-10-28 15:14:26,237 - lightrag - INFO - [New Chunks] inserting 1 chunks
+2024-10-28 15:14:26,237 - lightrag - INFO - Inserting 1 vectors to chunks
+2024-10-28 15:14:27,156 - lightrag - INFO - [Entity Extraction]...
+2024-10-28 15:14:41,924 - lightrag - INFO - Inserting 17 vectors to entities
+2024-10-28 15:14:44,464 - lightrag - INFO - Inserting 13 vectors to relationships
+2024-10-28 15:14:47,625 - lightrag - INFO - Writing graph with 4477 nodes, 3337 edges
+2024-10-28 15:14:47,921 - lightrag - INFO - Creating a new event loop in a sub-thread.
+2024-10-28 15:14:47,922 - lightrag - INFO - [New Docs] inserting 1 docs
+2024-10-28 15:14:47,924 - lightrag - INFO - [New Chunks] inserting 1 chunks
+2024-10-28 15:14:47,924 - lightrag - INFO - Inserting 1 vectors to chunks
+2024-10-28 15:14:49,002 - lightrag - INFO - [Entity Extraction]...
+2024-10-28 15:15:03,506 - lightrag - INFO - Inserting 15 vectors to entities
+2024-10-28 15:15:05,510 - lightrag - INFO - Inserting 14 vectors to relationships
+2024-10-28 15:15:08,045 - lightrag - INFO - Writing graph with 4487 nodes, 3351 edges
+2024-10-28 15:15:08,319 - lightrag - INFO - Creating a new event loop in a sub-thread.
+2024-10-28 15:15:08,319 - lightrag - INFO - [New Docs] inserting 1 docs
+2024-10-28 15:15:08,319 - lightrag - INFO - [New Chunks] inserting 1 chunks
+2024-10-28 15:15:08,319 - lightrag - INFO - Inserting 1 vectors to chunks
+2024-10-28 15:15:09,472 - lightrag - INFO - [Entity Extraction]...
+2024-10-28 15:15:25,580 - lightrag - DEBUG - Trigger summary: "AUSTRALIA AND NEW ZEALAND BANKING GROUP LIMITED"
+2024-10-28 15:15:28,413 - lightrag - INFO - Inserting 16 vectors to entities
+2024-10-28 15:15:30,222 - lightrag - INFO - Inserting 10 vectors to relationships
+2024-10-28 15:15:32,744 - lightrag - INFO - Writing graph with 4491 nodes, 3360 edges
+2024-10-28 15:15:33,036 - lightrag - INFO - Creating a new event loop in a sub-thread.
+2024-10-28 15:15:33,036 - lightrag - INFO - [New Docs] inserting 1 docs
+2024-10-28 15:15:33,063 - lightrag - INFO - [New Chunks] inserting 17 chunks
+2024-10-28 15:15:33,064 - lightrag - INFO - Inserting 17 vectors to chunks
+2024-10-28 15:15:35,848 - lightrag - INFO - [Entity Extraction]...
+2024-10-28 15:16:01,439 - lightrag - DEBUG - Trigger summary: "ANZ"
+2024-10-28 15:16:01,739 - lightrag - DEBUG - Trigger summary: "SHAREHOLDERS"
+2024-10-28 15:16:02,009 - lightrag - DEBUG - Trigger summary: "BOARD"
+2024-10-28 15:16:02,292 - lightrag - DEBUG - Trigger summary: "AUSTRALIA"
+2024-10-28 15:16:02,574 - lightrag - DEBUG - Trigger summary: "AUDIT COMMITTEE"
+2024-10-28 15:16:08,218 - lightrag - INFO - Inserting 214 vectors to entities
+2024-10-28 15:16:12,899 - lightrag - INFO - Inserting 146 vectors to relationships
+2024-10-28 15:16:17,973 - lightrag - INFO - Writing graph with 4633 nodes, 3488 edges
+2024-10-28 15:16:18,294 - lightrag - INFO - Creating a new event loop in a sub-thread.
+2024-10-28 15:16:18,294 - lightrag - INFO - [New Docs] inserting 1 docs
+2024-10-28 15:16:18,294 - lightrag - INFO - [New Chunks] inserting 1 chunks
+2024-10-28 15:16:18,294 - lightrag - INFO - Inserting 1 vectors to chunks
+2024-10-28 15:16:19,362 - lightrag - INFO - [Entity Extraction]...
+2024-10-28 15:16:26,841 - lightrag - INFO - Inserting 11 vectors to entities
+2024-10-28 15:16:28,313 - lightrag - INFO - Inserting 3 vectors to relationships
+2024-10-28 15:16:30,108 - lightrag - INFO - Writing graph with 4636 nodes, 3489 edges
+2024-10-28 15:16:30,427 - lightrag - INFO - Creating a new event loop in a sub-thread.
+2024-10-28 15:16:30,428 - lightrag - INFO - [New Docs] inserting 1 docs
+2024-10-28 15:16:30,433 - lightrag - INFO - [New Chunks] inserting 2 chunks
+2024-10-28 15:16:30,434 - lightrag - INFO - Inserting 2 vectors to chunks
+2024-10-28 15:16:31,882 - lightrag - INFO - [Entity Extraction]...
+2024-10-28 15:16:46,909 - lightrag - DEBUG - Trigger summary: "ANZ"
+2024-10-28 15:16:51,272 - lightrag - INFO - Inserting 28 vectors to entities
+2024-10-28 15:16:53,244 - lightrag - INFO - Inserting 15 vectors to relationships
+2024-10-28 15:16:56,331 - lightrag - INFO - Writing graph with 4648 nodes, 3503 edges
+2024-10-28 15:16:56,664 - lightrag - INFO - Creating a new event loop in a sub-thread.
+2024-10-28 15:16:56,666 - lightrag - INFO - [New Docs] inserting 1 docs
+2024-10-28 15:16:56,666 - lightrag - INFO - [New Chunks] inserting 1 chunks
+2024-10-28 15:16:56,667 - lightrag - INFO - Inserting 1 vectors to chunks
+2024-10-28 15:16:57,559 - lightrag - INFO - [Entity Extraction]...
+2024-10-28 15:17:06,016 - lightrag - INFO - Inserting 8 vectors to entities
+2024-10-28 15:17:07,834 - lightrag - INFO - Inserting 7 vectors to relationships
+2024-10-28 15:17:10,098 - lightrag - INFO - Writing graph with 4649 nodes, 3507 edges
+2024-10-28 15:17:10,485 - lightrag - INFO - Creating a new event loop in a sub-thread.
+2024-10-28 15:17:10,487 - lightrag - INFO - [New Docs] inserting 1 docs
+2024-10-28 15:17:10,488 - lightrag - INFO - [New Chunks] inserting 1 chunks
+2024-10-28 15:17:10,488 - lightrag - INFO - Inserting 1 vectors to chunks
+2024-10-28 15:17:11,402 - lightrag - INFO - [Entity Extraction]...
+2024-10-28 15:17:20,869 - lightrag - DEBUG - Trigger summary: "NEW ZEALAND"
+2024-10-28 15:17:25,194 - lightrag - INFO - Inserting 15 vectors to entities
+2024-10-28 15:17:26,586 - lightrag - INFO - Inserting 4 vectors to relationships
+2024-10-28 15:17:29,099 - lightrag - INFO - Writing graph with 4656 nodes, 3508 edges
+2024-10-28 15:17:29,295 - lightrag - INFO - Creating a new event loop in a sub-thread.
+2024-10-28 15:17:29,296 - lightrag - INFO - [New Docs] inserting 1 docs
+2024-10-28 15:17:29,296 - lightrag - INFO - [New Chunks] inserting 1 chunks
+2024-10-28 15:17:29,297 - lightrag - INFO - Inserting 1 vectors to chunks
+2024-10-28 15:17:30,158 - lightrag - INFO - [Entity Extraction]...
+2024-10-28 15:17:40,557 - lightrag - INFO - Inserting 17 vectors to entities
+2024-10-28 15:17:42,881 - lightrag - INFO - Inserting 3 vectors to relationships
+2024-10-28 15:17:45,470 - lightrag - INFO - Writing graph with 4666 nodes, 3510 edges
+2024-10-28 15:17:45,805 - lightrag - INFO - Creating a new event loop in a sub-thread.
+2024-10-28 15:17:45,808 - lightrag - INFO - [New Docs] inserting 1 docs
+2024-10-28 15:17:45,808 - lightrag - INFO - [New Chunks] inserting 1 chunks
+2024-10-28 15:17:45,809 - lightrag - INFO - Inserting 1 vectors to chunks
+2024-10-28 15:17:46,841 - lightrag - INFO - [Entity Extraction]...
+2024-10-28 15:17:59,740 - lightrag - INFO - Inserting 15 vectors to entities
+2024-10-28 15:18:01,722 - lightrag - INFO - Inserting 9 vectors to relationships
+2024-10-28 15:18:04,293 - lightrag - INFO - Writing graph with 4671 nodes, 3517 edges
+2024-10-28 15:18:04,647 - lightrag - INFO - Creating a new event loop in a sub-thread.
+2024-10-28 15:18:04,648 - lightrag - INFO - [New Docs] inserting 1 docs
+2024-10-28 15:18:04,649 - lightrag - INFO - [New Chunks] inserting 1 chunks
+2024-10-28 15:18:04,649 - lightrag - INFO - Inserting 1 vectors to chunks
+2024-10-28 15:18:05,499 - lightrag - INFO - [Entity Extraction]...
+2024-10-28 15:18:19,059 - lightrag - INFO - Inserting 14 vectors to entities
+2024-10-28 15:18:21,051 - lightrag - INFO - Inserting 9 vectors to relationships
+2024-10-28 15:18:23,236 - lightrag - INFO - Writing graph with 4679 nodes, 3523 edges
+2024-10-28 15:18:23,512 - lightrag - INFO - Creating a new event loop in a sub-thread.
+2024-10-28 15:18:23,512 - lightrag - INFO - [New Docs] inserting 1 docs
+2024-10-28 15:18:23,519 - lightrag - INFO - [New Chunks] inserting 6 chunks
+2024-10-28 15:18:23,519 - lightrag - INFO - Inserting 6 vectors to chunks
+2024-10-28 15:18:24,890 - lightrag - INFO - [Entity Extraction]...
+2024-10-28 15:18:41,040 - lightrag - DEBUG - Trigger summary: "ANZ"
+2024-10-28 15:18:45,504 - lightrag - INFO - Inserting 47 vectors to entities
+2024-10-28 15:18:48,189 - lightrag - INFO - Inserting 29 vectors to relationships
+2024-10-28 15:18:51,384 - lightrag - INFO - Writing graph with 4695 nodes, 3535 edges
+2024-10-28 15:18:51,759 - lightrag - INFO - Creating a new event loop in a sub-thread.
+2024-10-28 15:18:51,762 - lightrag - INFO - [New Docs] inserting 1 docs
+2024-10-28 15:18:51,763 - lightrag - INFO - [New Chunks] inserting 1 chunks
+2024-10-28 15:18:51,764 - lightrag - INFO - Inserting 1 vectors to chunks
+2024-10-28 15:18:52,906 - lightrag - INFO - [Entity Extraction]...
+2024-10-28 15:19:00,452 - lightrag - DEBUG - Trigger summary: "AUSTRALIA AND NEW ZEALAND BANKING GROUP LIMITED"
+2024-10-28 15:19:03,532 - lightrag - INFO - Inserting 9 vectors to entities
+2024-10-28 15:19:05,237 - lightrag - INFO - Inserting 4 vectors to relationships
+2024-10-28 15:19:07,549 - lightrag - INFO - Writing graph with 4699 nodes, 3538 edges
+2024-10-28 15:19:07,897 - lightrag - INFO - Creating a new event loop in a sub-thread.
+2024-10-28 15:19:07,898 - lightrag - INFO - [New Docs] inserting 1 docs
+2024-10-28 15:19:07,900 - lightrag - INFO - [New Chunks] inserting 1 chunks
+2024-10-28 15:19:07,901 - lightrag - INFO - Inserting 1 vectors to chunks
+2024-10-28 15:19:08,814 - lightrag - INFO - [Entity Extraction]...
+2024-10-28 15:19:19,106 - lightrag - DEBUG - Trigger summary: ('"ANZ"', '"SHAYNE ELLIOTT"')
+2024-10-28 15:19:21,973 - lightrag - INFO - Inserting 16 vectors to entities
+2024-10-28 15:19:23,786 - lightrag - INFO - Inserting 4 vectors to relationships
+2024-10-28 15:19:26,655 - lightrag - INFO - Writing graph with 4700 nodes, 3538 edges
+2024-10-28 15:19:26,918 - lightrag - INFO - Creating a new event loop in a sub-thread.
+2024-10-28 15:19:26,919 - lightrag - INFO - [New Docs] inserting 1 docs
+2024-10-28 15:19:26,923 - lightrag - INFO - [New Chunks] inserting 3 chunks
+2024-10-28 15:19:26,924 - lightrag - INFO - Inserting 3 vectors to chunks
+2024-10-28 15:19:28,325 - lightrag - INFO - [Entity Extraction]...
+2024-10-28 15:19:41,976 - lightrag - DEBUG - Trigger summary: "AUSTRALIA"
+2024-10-28 15:19:42,256 - lightrag - DEBUG - Trigger summary: "ANZ"
+2024-10-28 15:19:48,599 - lightrag - INFO - Inserting 38 vectors to entities
+2024-10-28 15:19:52,125 - lightrag - INFO - Inserting 26 vectors to relationships
+2024-10-28 15:19:55,437 - lightrag - INFO - Writing graph with 4714 nodes, 3555 edges
+2024-10-28 15:19:55,704 - lightrag - INFO - Creating a new event loop in a sub-thread.
+2024-10-28 15:19:55,706 - lightrag - INFO - [New Docs] inserting 1 docs
+2024-10-28 15:19:55,712 - lightrag - INFO - [New Chunks] inserting 6 chunks
+2024-10-28 15:19:55,712 - lightrag - INFO - Inserting 6 vectors to chunks
+2024-10-28 15:19:57,237 - lightrag - INFO - [Entity Extraction]...
+2024-10-28 15:20:15,130 - lightrag - DEBUG - Trigger summary: "ONEPATH CUSTODIANS PTY LTD"
+2024-10-28 15:20:18,279 - lightrag - INFO - Inserting 58 vectors to entities
+2024-10-28 15:20:21,031 - lightrag - INFO - Inserting 39 vectors to relationships
+2024-10-28 15:20:24,426 - lightrag - INFO - Writing graph with 4739 nodes, 3577 edges
+2024-10-28 16:35:50,275 - lightrag - INFO - Logger initialized for working directory: ./ANZDATA-output
+2024-10-28 16:35:50,276 - lightrag - DEBUG - LightRAG init with param:
+  working_dir = ./ANZDATA-output,
+  chunk_token_size = 1200,
+  chunk_overlap_token_size = 100,
+  tiktoken_model_name = gpt-4o-mini,
+  entity_extract_max_gleaning = 1,
+  entity_summary_to_max_tokens = 500,
+  node_embedding_algorithm = node2vec,
+  node2vec_params = {'dimensions': 1536, 'num_walks': 10, 'walk_length': 40, 'window_size': 2, 'iterations': 3, 'random_seed': 3},
+  embedding_func = {'embedding_dim': 1536, 'max_token_size': 8192, 'func': <function openai_embedding at 0x00000232E07211C0>},
+  embedding_batch_num = 32,
+  embedding_func_max_async = 16,
+  llm_model_func = <function gpt_4o_mini_complete at 0x00000232E0720AE0>,
+  llm_model_name = meta-llama/Llama-3.2-1B-Instruct,
+  llm_model_max_token_size = 32768,
+  llm_model_max_async = 16,
+  key_string_value_json_storage_cls = <class 'lightrag.storage.JsonKVStorage'>,
+  vector_db_storage_cls = <class 'lightrag.storage.NanoVectorDBStorage'>,
+  vector_db_storage_cls_kwargs = {},
+  graph_storage_cls = <class 'lightrag.storage.NetworkXStorage'>,
+  enable_llm_cache = True,
+  addon_params = {},
+  convert_response_to_json_func = <function convert_response_to_json at 0x00000232E0715F80>
+
+2024-10-28 16:35:50,322 - lightrag - INFO - Load KV full_docs with 47 data
+2024-10-28 16:35:50,360 - lightrag - INFO - Load KV text_chunks with 564 data
+2024-10-28 16:35:50,425 - lightrag - INFO - Load KV llm_response_cache with 1211 data
+2024-10-28 16:35:50,550 - lightrag - INFO - Loaded graph from ./ANZDATA-output\graph_chunk_entity_relation.graphml with 4739 nodes, 3577 edges
+2024-10-28 16:35:51,225 - lightrag - INFO - Creating a new event loop in a sub-thread.
+2024-10-28 16:35:52,508 - lightrag - INFO - Truncate 60 to 3 chunks
+2024-10-28 16:35:56,992 - lightrag - INFO - Creating a new event loop in a sub-thread.
+2024-10-28 16:35:59,197 - lightrag - INFO - Local query uses 60 entites, 31 relations, 3 text units
+2024-10-28 16:36:06,485 - lightrag - INFO - Creating a new event loop in a sub-thread.
+2024-10-28 16:36:07,685 - lightrag - INFO - Global query uses 35 entites, 60 relations, 3 text units
+2024-10-28 16:36:14,929 - lightrag - INFO - Creating a new event loop in a sub-thread.
+2024-10-28 16:36:16,408 - lightrag - INFO - Local query uses 60 entites, 31 relations, 3 text units
+2024-10-28 16:36:17,239 - lightrag - INFO - Global query uses 35 entites, 60 relations, 3 text units
+2024-11-01 11:27:25,448 - lightrag - INFO - Logger initialized for working directory: ../initialTesting_files/ANZDATA-output
+2024-11-01 11:27:25,450 - lightrag - DEBUG - LightRAG init with param:
+  working_dir = ../initialTesting_files/ANZDATA-output,
+  chunk_token_size = 1200,
+  chunk_overlap_token_size = 100,
+  tiktoken_model_name = gpt-4o-mini,
+  entity_extract_max_gleaning = 1,
+  entity_summary_to_max_tokens = 500,
+  node_embedding_algorithm = node2vec,
+  node2vec_params = {'dimensions': 1536, 'num_walks': 10, 'walk_length': 40, 'window_size': 2, 'iterations': 3, 'random_seed': 3},
+  embedding_func = {'embedding_dim': 1536, 'max_token_size': 8192, 'func': <function openai_embedding at 0x000002731C2258A0>},
+  embedding_batch_num = 32,
+  embedding_func_max_async = 16,
+  llm_model_func = <function gpt_4o_mini_complete at 0x000002731C2251C0>,
+  llm_model_name = meta-llama/Llama-3.2-1B-Instruct,
+  llm_model_max_token_size = 32768,
+  llm_model_max_async = 16,
+  key_string_value_json_storage_cls = <class 'lightrag.storage.JsonKVStorage'>,
+  vector_db_storage_cls = <class 'lightrag.storage.NanoVectorDBStorage'>,
+  vector_db_storage_cls_kwargs = {},
+  graph_storage_cls = <class 'lightrag.storage.NetworkXStorage'>,
+  enable_llm_cache = True,
+  addon_params = {},
+  convert_response_to_json_func = <function convert_response_to_json at 0x000002731C216660>
+
+2024-11-01 11:27:25,496 - lightrag - INFO - Load KV full_docs with 47 data
+2024-11-01 11:27:25,544 - lightrag - INFO - Load KV text_chunks with 564 data
+2024-11-01 11:27:25,613 - lightrag - INFO - Load KV llm_response_cache with 1216 data
+2024-11-01 11:27:25,958 - lightrag - INFO - Loaded graph from ../initialTesting_files/ANZDATA-output\graph_chunk_entity_relation.graphml with 4739 nodes, 3577 edges
+2024-11-01 11:27:26,864 - lightrag - INFO - Creating a new event loop in a sub-thread.
+2024-11-01 11:27:29,199 - lightrag - INFO - Truncate 60 to 3 chunks
+2024-11-01 11:27:29,672 - lightrag - INFO - Creating a new event loop in a sub-thread.
+2024-11-01 11:27:31,560 - lightrag - INFO - Local query uses 60 entites, 31 relations, 3 text units
+2024-11-01 11:27:43,542 - lightrag - INFO - Creating a new event loop in a sub-thread.
+2024-11-01 11:27:45,154 - lightrag - INFO - Global query uses 40 entites, 60 relations, 3 text units
+2024-11-01 11:27:57,949 - lightrag - INFO - Creating a new event loop in a sub-thread.
+2024-11-01 11:27:59,541 - lightrag - INFO - Local query uses 60 entites, 31 relations, 3 text units
+2024-11-01 11:28:00,659 - lightrag - INFO - Global query uses 40 entites, 60 relations, 3 text units

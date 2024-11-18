@@ -1,0 +1,392 @@
+{
+  "version": 2,
+  "projects": [
+    {
+      "fieldConfig": {
+        "Status": {
+          "options": [
+            "Outlining",
+            "Todo",
+            "In Progress",
+            "Complete"
+          ]
+        }
+      },
+      "defaultName": "",
+      "templates": [
+        "99.  Meta/Templates/1. Projelement Template.md"
+      ],
+      "excludedNotes": [],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "folder",
+        "config": {
+          "path": "1. Projects/Obsidian Set Up",
+          "recursive": false
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {
+            "orderFields": [
+              "name",
+              "path",
+              "date",
+              "time",
+              "last_edited",
+              "tags",
+              "aliases",
+              "Project",
+              "Area",
+              "Status",
+              "Deadline",
+              "DateCompleted"
+            ],
+            "fieldConfig": {
+              "tags": {
+                "width": 414
+              }
+            }
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "b335a884-8b0d-4328-b1f1-66569ae5300a",
+          "name": "Table",
+          "type": "table"
+        },
+        {
+          "config": {
+            "includeFields": [
+              "DateCompleted",
+              "Deadline"
+            ],
+            "groupByField": "Status",
+            "columns": {
+              "Outlining": {
+                "weight": 0,
+                "records": [
+                  "1. Projects/Obsidian Set Up/Big Areas of Focus.md",
+                  "1. Projects/Obsidian Set Up/Daily Notes.md",
+                  "1. Projects/Obsidian Set Up/Day Planning.md",
+                  "1. Projects/Obsidian Set Up/Habit Tracking.md",
+                  "1. Projects/Obsidian Set Up/Routine Making.md",
+                  "1. Projects/Obsidian Set Up/Book Resources.md",
+                  "1. Projects/Obsidian Set Up/Databases.md",
+                  "1. Projects/Obsidian Set Up/Goal Making.md",
+                  "1. Projects/Obsidian Set Up/People Resources.md"
+                ]
+              },
+              "Todo": {
+                "weight": 1,
+                "records": [
+                  "1. Projects/Obsidian Set Up/Tags.md",
+                  "1. Projects/Obsidian Set Up/Journaling.md",
+                  "1. Projects/Obsidian Set Up/Going Back Through Notes.md"
+                ]
+              },
+              "In Progress": {
+                "weight": 2,
+                "records": [
+                  "1. Projects/Obsidian Set Up/Templating.md",
+                  "1. Projects/Obsidian Set Up/Resource Template Directory.md",
+                  "1. Projects/Obsidian Set Up/Resource Directory.md",
+                  "1. Projects/Obsidian Set Up/Fleeting Directory.md",
+                  "1. Projects/Obsidian Set Up/Journal Directory.md",
+                  "1. Projects/Obsidian Set Up/Area Directory.md",
+                  "1. Projects/Obsidian Set Up/Meta Directory.md"
+                ]
+              },
+              "Complete": {
+                "weight": 3,
+                "records": [
+                  "1. Projects/Obsidian Set Up/Organisational System of the Vault.md",
+                  "1. Projects/Obsidian Set Up/Root Directory.md",
+                  "1. Projects/Obsidian Set Up/MOC Directory.md",
+                  "1. Projects/Obsidian Set Up/Project Directory.md",
+                  "1. Projects/Obsidian Set Up/Journal Template Directory.md",
+                  "1. Projects/Obsidian Set Up/Archive Directory.md"
+                ]
+              }
+            }
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": []
+          },
+          "colors": {
+            "conditions": [
+              {
+                "color": "#2bff00",
+                "condition": {
+                  "field": "Status",
+                  "operator": "is",
+                  "enabled": true,
+                  "value": "Complete"
+                }
+              },
+              {
+                "color": "#e2e600",
+                "condition": {
+                  "field": "Status",
+                  "operator": "is",
+                  "enabled": true,
+                  "value": "In Progress"
+                }
+              },
+              {
+                "color": "#faab00",
+                "condition": {
+                  "field": "Status",
+                  "operator": "is",
+                  "enabled": true,
+                  "value": "Todo"
+                }
+              },
+              {
+                "color": "#ff0033",
+                "condition": {
+                  "field": "Status",
+                  "operator": "is",
+                  "enabled": true,
+                  "value": "Outlining"
+                }
+              },
+              {
+                "color": "#ff00dd",
+                "condition": {
+                  "field": "Status",
+                  "operator": "is",
+                  "enabled": true,
+                  "value": "Fixing"
+                }
+              }
+            ]
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "693c1a57-2549-4c52-a303-47364d03d19b",
+          "name": "Board",
+          "type": "board"
+        }
+      ],
+      "id": "5c79b2fb-9574-48b8-9075-f94d1e81022f",
+      "name": "Obsidian Set Up"
+    },
+    {
+      "fieldConfig": {
+        "Status": {
+          "options": [
+            "Brainstorming",
+            "Todo",
+            "In Progress",
+            "Complete"
+          ]
+        }
+      },
+      "defaultName": "",
+      "templates": [
+        "99.  Meta/Templates/1. Projelement Template.md"
+      ],
+      "excludedNotes": [],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "folder",
+        "config": {
+          "path": "1. Projects/Automated Job Applying",
+          "recursive": false
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {},
+          "filter": {
+            "conjunction": "and",
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "f818f575-b9bb-4049-a9b3-c68531af39c0",
+          "name": "Table",
+          "type": "table"
+        },
+        {
+          "config": {
+            "groupByField": "Status",
+            "columns": {
+              "Brainstorming": {
+                "weight": 0,
+                "records": []
+              },
+              "Todo": {
+                "weight": 1,
+                "records": [
+                  "1. Projects/Automated Job Applying/Automating Applying.md",
+                  "1. Projects/Automated Job Applying/Automating Search.md"
+                ]
+              },
+              "In Progress": {
+                "weight": 2,
+                "records": [
+                  "1. Projects/Automated Job Applying/Job Criteria.md"
+                ]
+              },
+              "Complete": {
+                "weight": 3
+              }
+            }
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "85ff4f3b-4c7f-4822-a0d3-4f9dc928a2fd",
+          "name": "Board",
+          "type": "board"
+        }
+      ],
+      "id": "e3a030c3-8490-415c-8735-7815cf64f59e",
+      "name": "Automating Job Applying"
+    },
+    {
+      "fieldConfig": {},
+      "defaultName": "",
+      "templates": [],
+      "excludedNotes": [],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "folder",
+        "config": {
+          "path": "/",
+          "recursive": true
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {
+            "orderFields": [
+              "name",
+              "date",
+              "time",
+              "last_edited",
+              "tags",
+              "aliases",
+              "Project",
+              "Area",
+              "DateCompleted",
+              "day",
+              "Deadline",
+              "Links",
+              "Projects",
+              "Status"
+            ],
+            "fieldConfig": {
+              "weather": {
+                "hide": true
+              },
+              "sign": {
+                "hide": true
+              },
+              "SeriesPos": {
+                "hide": true
+              },
+              "Series": {
+                "hide": true
+              },
+              "ReadingStatus": {
+                "hide": true
+              },
+              "Rating": {
+                "hide": true
+              },
+              "PubYear": {
+                "hide": true
+              },
+              "Pages": {
+                "hide": true
+              },
+              "Owned": {
+                "hide": true
+              },
+              "moonphase": {
+                "hide": true
+              },
+              "Genre": {
+                "hide": true
+              },
+              "Fiction": {
+                "hide": true
+              },
+              "excalidraw-plugin": {
+                "hide": true
+              },
+              "Author": {
+                "hide": true
+              },
+              "path": {
+                "hide": true
+              },
+              "Projects": {
+                "hide": true
+              },
+              "Deadline": {
+                "hide": true
+              },
+              "day": {
+                "hide": true
+              }
+            }
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "38bf8633-a7e0-4874-8ffa-47945c9b9ebe",
+          "name": "Table",
+          "type": "table"
+        }
+      ],
+      "id": "e228f2ce-e7d4-4e9b-a69d-dda93fc1634b",
+      "name": "Whole Vault"
+    }
+  ],
+  "archives": [],
+  "preferences": {
+    "projectSizeLimit": 1000,
+    "frontmatter": {
+      "quoteStrings": "PLAIN"
+    },
+    "locale": {
+      "firstDayOfWeek": "default"
+    },
+    "commands": [],
+    "linkBehavior": "open-editor"
+  }
+}

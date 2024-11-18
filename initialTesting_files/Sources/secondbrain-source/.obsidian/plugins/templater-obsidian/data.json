@@ -1,0 +1,74 @@
+{
+  "command_timeout": 5,
+  "templates_folder": "99. Meta/Templates",
+  "templates_pairs": [
+    [
+      "",
+      ""
+    ]
+  ],
+  "trigger_on_file_creation": true,
+  "auto_jump_to_cursor": false,
+  "enable_system_commands": false,
+  "shell_path": "",
+  "user_scripts_folder": "99. Meta/Scripts",
+  "enable_folder_templates": true,
+  "folder_templates": [
+    {
+      "folder": "/",
+      "template": "99. Meta/Templates/Root Template.md"
+    },
+    {
+      "folder": "1. Projects",
+      "template": "99. Meta/Templates/1. Project Folder Script Template.md"
+    },
+    {
+      "folder": "2. Areas",
+      "template": "99. Meta/Templates/2. Area Template.md"
+    },
+    {
+      "folder": "3. Resources",
+      "template": "99. Meta/Templates/3. Resource Template.md"
+    },
+    {
+      "folder": "5. Journal/1. Days",
+      "template": "99. Meta/Templates/Journal Templates/1. Daily Template.md"
+    },
+    {
+      "folder": "5. Journal/2. Weeks",
+      "template": "99. Meta/Templates/Journal Templates/2. Weekly Template.md"
+    },
+    {
+      "folder": "5. Journal/3. Months",
+      "template": "99. Meta/Templates/Journal Templates/3. Monthly Template.md"
+    },
+    {
+      "folder": "5. Journal/4. Quarters",
+      "template": "99. Meta/Templates/Journal Templates/4. Quarterly Template.md"
+    },
+    {
+      "folder": "5. Journal/5. Years",
+      "template": "99. Meta/Templates/Journal Templates/5. Yearly Template.md"
+    },
+    {
+      "folder": "5. Journal/Dreams",
+      "template": "99. Meta/Templates/Journal Templates/Dream Journal Template.md"
+    },
+    {
+      "folder": "5. Journal/Magick Diary",
+      "template": "99. Meta/Templates/Journal Templates/Magick Diary Template.md"
+    },
+    {
+      "folder": "99.  Meta",
+      "template": "99. Meta/Templates/99. Meta Template.md"
+    }
+  ],
+  "syntax_highlighting": true,
+  "syntax_highlighting_mobile": false,
+  "enabled_templates_hotkeys": [
+    ""
+  ],
+  "startup_templates": [
+    ""
+  ]
+}

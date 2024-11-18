@@ -1,0 +1,11 @@
+{
+	"nodes":[
+		{"id":"cd7ec9a4eab33275","type":"text","text":"R Reality","x":-146,"y":260,"width":146,"height":50},
+		{"id":"ed14b8f34e27d709","type":"text","text":"r reality","x":80,"y":260,"width":146,"height":50},
+		{"id":"c0b2092c50d2637c","type":"text","text":"T Truth","x":-146,"y":160,"width":146,"height":50},
+		{"id":"012d07e332b42fd5","type":"text","text":"t truth","x":80,"y":160,"width":146,"height":50},
+		{"id":"4f68c541cd98a227","type":"text","text":"K Knowing","x":-146,"y":360,"width":146,"height":50},
+		{"id":"9ab454d3ed6e884e","type":"text","text":"k knowing","x":80,"y":360,"width":146,"height":50}
+	],
+	"edges":[]
+}

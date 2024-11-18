@@ -1,0 +1,11 @@
+---
+date: 2024-08-16
+time: 16:05
+last_edited: 2024-09-16 16:47
+tags:
+  - resource
+aliases: 
+Area: 
+---
+# Messages of Doom
+Jack has been receiving messages of impending death with greater and greater severity. Waking from nights not much in the way of dreams, but thoughts. Jack has not any visuals to remember in the next waking days, but thoughts and ideas and the big one we like to use is "Revelations". We don't know if the answer is to say whether we believe it's true in physical reality, but that it's perhaps real in some other way that cannot be explained. Are they visions of another dimension? ***Needs further looking into*** for sure. But in some way there are defined law's I need to abide by and "Visions" that need to be followed. A path that needs to be followed. A train of consciousness that needs to be followed and not get of of. A destiny of some kind. Whatever it is, Jack needs, he needs to just follow it. Don't make [[The Matrix as we know it|The Matrix as we know it]], understand what I'm doing. He needs to keep it private. He wonders if this is paranoia, or some kind of deep spiritual instinct that needs to be followed. A journey with a road on it that is a hard path. Somehow knowing what is to come, desperately trying to pretend isn't real because it scares you. You'd rather it not be real so you stay in the dark, in the 'safe' outlook of reality, because what you don't know can't hurt you. Well perhaps it can. And perhaps maybe now is the exact time to face the unknown instead of being overridden by fear. It has it's claw gripped into you really tight, but you have to fight it and face the fear and take control of the situation. You're unhappy with your life and think there can be more. You know there can be more, you just need to follow the instinct and drive ahead with power. It's archetypal, it just may be the doomsday of our age, and that this is a cycle of reality and Samsara, but we are being graced with vision of a better life. An escape from samsara perhaps. We are following this journey. We are going to drive for this, live for this. This is our goal for now. For life? We don't know, but this is the time where we make a decision, a fork in the road, and we can choose the safe life, or the realised individuated path, and despite the fear, we are going to the real life we want.

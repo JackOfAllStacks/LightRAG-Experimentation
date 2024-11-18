@@ -1,0 +1,322 @@
+{
+  "main": {
+    "id": "f4994b10d32818ef",
+    "type": "split",
+    "children": [
+      {
+        "id": "1b6b545310f6e8c2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8184ab51a9b17644",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Shadow I.canvas",
+                "viewState": {
+                  "x": -198.5199999999998,
+                  "y": 118.95999999999954,
+                  "zoom": 0
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "Shadow I"
+            }
+          },
+          {
+            "id": "babe1ce71c3e28e2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "5. Journal/1. Days/2024-10-26.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2024-10-26"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "6257d32d5d0ab6c4",
+    "type": "split",
+    "children": [
+      {
+        "id": "5b92a262d851a399",
+        "type": "tabs",
+        "dimension": 65.72295247724975,
+        "children": [
+          {
+            "id": "d4b4b43c813b24b2",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "f16bc5af7694d938",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "e91a07dc568893c7",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      },
+      {
+        "id": "1e57ecb5b166167a",
+        "type": "tabs",
+        "dimension": 34.27704752275025,
+        "children": [
+          {
+            "id": "b25a327ceb88eccd",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "030c54cf29bcea70",
+    "type": "split",
+    "children": [
+      {
+        "id": "68df8d1ca77fd25a",
+        "type": "tabs",
+        "dimension": 64.51149425287356,
+        "children": [
+          {
+            "id": "8b24c2ea71243d73",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "3. Resources/Zettelkasten/Story Creation With ChatGPT.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Story Creation With ChatGPT"
+            }
+          },
+          {
+            "id": "0545a0c111197106",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "3. Resources/Zettelkasten/Story Creation With ChatGPT.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": false
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Story Creation With ChatGPT"
+            }
+          },
+          {
+            "id": "d5a53478099a3180",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "2a272d0ab9516d78",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "d02b50a9469c61e1",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "3. Resources/Zettelkasten/Story Creation With ChatGPT.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Story Creation With ChatGPT"
+            }
+          },
+          {
+            "id": "5f420616ee2f4700",
+            "type": "leaf",
+            "state": {
+              "type": "timeline",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Timeline"
+            }
+          }
+        ]
+      },
+      {
+        "id": "991cb70f8e1da3c5",
+        "type": "tabs",
+        "dimension": 35.48850574712644,
+        "children": [
+          {
+            "id": "cf586b95f64addb3",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "3. Resources/Zettelkasten/Story Creation With ChatGPT.md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": false,
+                  "showArrow": false,
+                  "textFadeMultiplier": -1.5,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 0.36288736930121196,
+                  "close": true
+                }
+              },
+              "icon": "lucide-git-fork",
+              "title": "Graph of Story Creation With ChatGPT"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 395.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-day-planner:Timeline": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-projects:Open projects": false,
+      "periodic-notes:Open today": false
+    }
+  },
+  "active": "8184ab51a9b17644",
+  "lastOpenFiles": [
+    "5. Journal/1. Days/2024-10-26.md",
+    "5. Journal/1. Days/2024-10-25.md",
+    "3. Resources/Assets/Screenshot_20241026_180549_Instagram.jpg",
+    "3. Resources/Assets/~syncthing~Screenshot_20241026_180549_Instagram.jpg.tmp",
+    "5. Journal/1. Days/~syncthing~2024-10-26.md.tmp",
+    "3. Resources/Assets/20241026_143458.jpg",
+    "3. Resources/Assets/Screenshot_20241026_123716_Google.jpg",
+    "3. Resources/Assets/20241026_141841.jpg",
+    "3. Resources/Assets/20241026_141441.jpg",
+    "Shadow I.canvas",
+    "5. Journal/Dreams/2024-10-26 Dream.md",
+    "5. Journal/1. Days/2024-10-22.md",
+    "3. Resources/Assets/Screenshot 2024-10-22 110120.png",
+    "3. Resources/Assets/Screenshot 2024-10-22 110412 1.png",
+    "3. Resources/Assets/Screenshot 2024-10-22 110412.png",
+    "5. Journal/Dreams/2024-10-22 Dream.md",
+    "5. Journal/1. Days/2024-10-21.md",
+    "5. Journal/Dreams/2024-10-21 Dream.md",
+    "5. Journal/1. Days/2024-10-18.md",
+    "5. Journal/Dreams/2024-10-18 Dream.md",
+    "3. Resources/Zettelkasten/Story Creation With ChatGPT.md",
+    "5. Journal/1. Days/2024-10-17.md",
+    "5. Journal/1. Days/2024-10-16.md",
+    "5. Journal/Dreams/2024-10-16 Dream 1.md",
+    "3. Resources/Zettelkasten/~syncthing~InnovatGPT In Person Interview.md.tmp",
+    "5. Journal/Dreams/2024-10-16 Dream.md",
+    "3. Resources/Zettelkasten/Canvases",
+    "3. Resources/Zettelkasten/Untitled.md",
+    "5. Journal/1. Days/2024-10-11.md",
+    "5. Journal/Dreams/~syncthing~2024-10-07 Dream.md.tmp",
+    "5. Journal/1. Days/2024-10-10.md",
+    "5. Journal/Dreams/2024-10-11 Dream.md",
+    "5. Journal/1. Days/~syncthing~2024-10-10.md.tmp",
+    "5. Journal/Dreams/2024-10-10 Dream.md",
+    "5. Journal/1. Days/2024-10-07.md",
+    "5. Journal/1. Days/2024-10-06.md",
+    "3. Resources/Zettelkasten/Steam.md",
+    "3. Resources/Accounts/Steam.md",
+    "3. Resources/Zettelkasten/Job Interview Preparation.md",
+    "3. Resources/Zettelkasten/The Role of AI in Enhancing Customer Experience Across Industries Planning.md",
+    "1. Projects/Obsidian Set Up/Vault Structured Mind Map.canvas",
+    "3. Resources/Zettelkasten/~syncthing~Retail Slide and Script.md.tmp",
+    "3. Resources/Zettelkasten/~syncthing~Key AI Technologies Slide and Script.md.tmp",
+    "3. Resources/Zettelkasten/~syncthing~AI's Role in the Customer Experience Slide and Script.md.tmp",
+    "1. Projects/Obsidian Set Up/~syncthing~Organisational System of the Vault.md.tmp"
+  ]
+}

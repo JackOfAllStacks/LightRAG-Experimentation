@@ -7,7 +7,7 @@ import argparse
 def extract_unique_contexts(input_directory, output_directory):
     os.makedirs(output_directory, exist_ok=True)
 
-    jsonl_files = glob.glob(os.path.join(input_directory, "*.jsonl"))
+    jsonl_files = glob.glob(os.path.join(input_directory, "**", "*.jsonl"), recursive=True)
     print(f"Found {len(jsonl_files)} JSONL files.")
 
     for file_path in jsonl_files:
