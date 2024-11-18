@@ -5,5 +5,15 @@ book.txt
 lightrag-dev/
 .idea/
 dist/
+<<<<<<< HEAD
 .venv/
 .vs/
+=======
+env/
+local_neo4jWorkDir/
+neo4jWorkDir/
+ignore_this.txt
+.venv/
+*.ignore.*
+.ruff_cache/
+>>>>>>> 186cd34a033d13c13317cba356e0076cffc113fe

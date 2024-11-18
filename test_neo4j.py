@@ -1,21 +1,28 @@
 import os
-
 from lightrag import LightRAG, QueryParam
 from lightrag.llm import gpt_4o_mini_complete
 
-WORKING_DIR = "./dickens"
+
+#########
+# Uncomment the below two lines if running in a jupyter notebook to handle the async nature of rag.insert()
+# import nest_asyncio
+# nest_asyncio.apply()
+#########
+
+WORKING_DIR = "./local_neo4jWorkDir"
 
 if not os.path.exists(WORKING_DIR):
     os.mkdir(WORKING_DIR)
 
 rag = LightRAG(
     working_dir=WORKING_DIR,
-    llm_model_func=gpt_4o_mini_complete,
-    # llm_model_func=gpt_4o_complete
+    llm_model_func=gpt_4o_mini_complete,  # Use gpt_4o_mini_complete LLM model
+    kg="Neo4JStorage",
+    log_level="INFO",
+    # llm_model_func=gpt_4o_complete  # Optionally, use a stronger model
 )
 
-
-with open("./book.txt", "r", encoding="utf-8") as f:
+with open("./book.txt") as f:
     rag.insert(f.read())
 
 # Perform naive search
